@@ -1,1 +1,4 @@
 site_name: My Docs
+# Agregar material plugin
+theme:
+  name: material
