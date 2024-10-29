@@ -1,4 +1,29 @@
-site_name: My Docs
+site_name: MkDocs test
 # Agregar material plugin
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs
+    - toc.integrate
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  # Colores y estilos
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: lime
