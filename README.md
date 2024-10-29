@@ -1,17 +1,17 @@
-# Documentacion
+# Documentación
 
-mini proyecto de prueba de material-mkdocs.
+Mini proyecto de prueba de Material-MkDocs.
 
-Iniciar entorno virtual de python:
+Iniciar entorno virtual de Python:
 
 ```bash
-python -m venv venv 
+python -m venv venv
 # Activar entorno
 source venv/bin/activate
-# Verificar verion de pip
+# Verificar versión de pip
 pip --version
 # Instalar mkdocs-material
 pip install mkdocs-material
-# Abrir directorio en code
-.code
+# Abrir directorio en Code
+code .
 ```
