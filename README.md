@@ -15,3 +15,19 @@ pip install mkdocs-material
 # Abrir directorio en Code
 code .
 ```
+
+Iniciar mkdocs-material
+
+```bash
+mkdocs new .
+```
+
+Se crean dos archivos `mkdocs.yaml` y el directorio docs con el `index.html`
+
+Para iniciarlo localmente:
+
+```bash
+mkdocs serve
+```
+
+![Captura](https://i.imgur.com/RRYj2Ho.png)
