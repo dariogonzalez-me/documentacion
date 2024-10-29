@@ -1,6 +1,6 @@
 # Documentación
 
-Mini proyecto de prueba de Material-MkDocs.
+Mini proyecto de prueba de [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/).
 
 Iniciar entorno virtual de Python:
 
