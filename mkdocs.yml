@@ -27,6 +27,27 @@ theme:
         name: Switch to light mode
       primary: teal
       accent: lime
+# Plugins para resaltar y dar formato al bloque de código
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      #linenums: true # no es necesario y tengo mas control para elegir cuando usarlo al definirlo en el bloque
+      #guess_lang: false # Desactiva la deteccion automatica del lenguaje
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      # emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      # emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 # Footer
 # Social Media
 extra:
