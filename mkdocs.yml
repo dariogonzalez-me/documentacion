@@ -27,3 +27,14 @@ theme:
         name: Switch to light mode
       primary: teal
       accent: lime
+# Footer
+# Social Media
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/dariogonzalez-me
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/dgonzalezpfaffenzeller
+# Copyright
+copyright: |
+  &copy; 2024 <a href="https://github.com/dariogonzalez-me/documentacion?tab=GPL-3.0-1-ov-file" target="_blank" rel="noopener">MkDocs test - puplic licence</a>
