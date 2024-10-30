@@ -14,7 +14,7 @@ lsblk
 
 Se espera algo similar a:
 
-```bash
+```output
     NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
 sda      8:0    0 465.8G  0 disk 
 └─sda1   8:1    0 465.8G  0 part /mnt/disco_secundario
