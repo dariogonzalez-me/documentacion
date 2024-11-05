@@ -6,26 +6,63 @@ Hola mundo:
 print("Hello world!")
 ```
 
-## Variables
+## Tipos de datos numéricos
 
-No pueden iniciar con un numero, pero si finalizar
+* Enteros `int`:
 
-```py linenums="1"
-variable1 = "Primer variable"
-variable2 = 2
-```
+Representan números enteros, positivos o negativos, sin decimales. Ejemplo: 1, 2, 3, etc.
 
-## Tipos de datos
+* Decimales, punto flotante `float`:
 
-### Enteros `int`
+Representan números decimales. Ejemplo: 3.14, -0.5, etc.
 
-### Decimales, punto flotante `float`
+* Complejos `complex`:
 
-### Constantes
+Representan números complejos, con parte real e imaginaria. Ejemplo: 3 + 4j, -2 - 5j, etc.
+
+## Tipos de datos de texto
+
+* Cadena `str`:
+
+Representa una secuencia de caracteres. Ejemplo: "Hola", 'Hola', etc.
+
+## Tipos de datos de colección
+
+* Lista `list`:
+
+Una secuencia ordenada de elementos, que pueden ser de diferentes tipos. Ejemplo: [1, 2, 3], ["a", "b", "c"], etc.
+
+* Tupla `tuple`:
+
+Una secuencia ordenada e inmutable de elementos. Ejemplo: (1, 2, 3), ("a", "b", "c"), etc.
+
+* Diccionario `dict`:
+
+Una colección de pares clave-valor. Ejemplo: {"nombre": "Juan", "edad": 30}, etc.
+
+* Conjunto `set`
+
+Una colección sin orden y sin duplicados de elementos. Ejemplo: {1, 2, 3}, {"a", "b", "c"}, etc.
+
+## Tipos de datos lógicos
+
+* Boleano `bool`
+
+Representa un valor verdadero o falso. Ejemplo: True, False.
+
+## Tipos de datos especiales
+
+* NoneType `none`
+
+Representa la ausencia de valor.
+
+* Bytes `bytes`
+
+Representa una secuencia de bytes.
+
+**Constantes:**
 
 En Python existen constantes, aunque no están explícitamente definidas como en otros lenguajes de programación. Sin embargo, Python tiene algunas convenciones y módulos que permiten trabajar con constantes de manera efectiva.
-
-**Constantes en python:**
 
 1. numeros especiales:
     Python tiene algunas constantes numéricas especiales, como `inf` (infinito), `-inf` (menos infinito) y `nan` (no es un número), que se pueden acceder mediante el módulo *`math`*.
@@ -61,3 +98,12 @@ En Python existen constantes, aunque no están explícitamente definidas como en
         constants.DEFINE_INT('MI_CONSTANTE', 42)
         print(constants.MI_CONSTANTE)  # 42
     ```
+
+## Variables
+
+No pueden iniciar con un numero, pero si finalizar
+
+```py linenums="1"
+variable1 = "Primer variable"
+variable2 = 2
+```
