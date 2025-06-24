@@ -16,7 +16,7 @@ pip install mkdocs-material
 code .
 ```
 
-Opcional iniciar mkdocs-material (nuevo proyecto):
+Iniciar mkdocs-material (opcional):
 
 ```bash
 mkdocs new .
