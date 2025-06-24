@@ -1,6 +1,6 @@
 # Documentación
 
-Mini proyecto de prueba de [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/).
+Proyecto para pruebas con [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/).
 
 Iniciar entorno virtual de Python:
 
@@ -12,11 +12,11 @@ source venv/bin/activate
 pip --version
 # Instalar mkdocs-material
 pip install mkdocs-material
-# Abrir directorio en Code
+# Abrir directorio en Visual Studio Code
 code .
 ```
 
-Iniciar mkdocs-material
+Opcional iniciar mkdocs-material (nuevo proyecto):
 
 ```bash
 mkdocs new .
@@ -24,7 +24,7 @@ mkdocs new .
 
 Se crean dos archivos `mkdocs.yaml` y el directorio docs con el `index.html`
 
-Para iniciarlo localmente:
+Iniciar servidor web (localhost:8000):
 
 ```bash
 mkdocs serve
