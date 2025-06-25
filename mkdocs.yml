@@ -1,4 +1,4 @@
-site_name: MkDocs test
+site_name: ""
 # Agregar material plugin
 theme:
   name: material
@@ -15,18 +15,18 @@ theme:
   language: en
   # Colores y estilos
   palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-      primary: teal
-      accent: purple
     - scheme: slate
       toggle:
-        icon: material/toggle-switch
+        icon: material/toggle-switch-off-outline
         name: Switch to light mode
-      primary: teal
-      accent: lime
+      primary: deep purple
+      accent: purple
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to night mode
+      primary: deep purple
+      accent: purple
 # Plugins para resaltar y dar formato al bloque de código
 markdown_extensions:
   - pymdownx.highlight:
@@ -58,4 +58,4 @@ extra:
       link: https://www.linkedin.com/in/dgonzalezpfaffenzeller
 # Copyright
 copyright: |
-  &copy; 2024 <a href="https://github.com/dariogonzalez-me/documentacion?tab=GPL-3.0-1-ov-file" target="_blank" rel="noopener">MkDocs test - puplic licence</a>
+  &copy; 2025 MkDocs | Public licence <a href="https://github.com/dariogonzalez-me/documentacion?tab=GPL-3.0-1-ov-file" target="_blank" rel="noopener"> </a>
